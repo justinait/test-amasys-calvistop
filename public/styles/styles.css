@@ -7,6 +7,7 @@ body {
     background-image: url('/public/images/background.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
 }
 .promoHeader {
     font-size: 12px;
@@ -80,7 +81,7 @@ body {
     font-weight: 800;
     color: white;
     background-color: #EE0001;
-    margin-top: 115px;
+    margin-top: 125px;
     padding-left: 30%;
     height: 30px;
     display: flex;
@@ -88,7 +89,7 @@ body {
 }
 .secureLogo {
     position: absolute;
-    top: 205px;
+    top: 210px;
     left: 83%;
     width: 48px;
 }
@@ -105,8 +106,8 @@ body {
     height: 12px;
 }
 .item p {
-    font-weight: 500;
-    margin: 0.3rem 0.5rem;
+    font-weight: 600;
+    margin: 0.1rem 0.5rem;
 }
 
 .afterBeforeContainer {
@@ -118,7 +119,7 @@ body {
     margin: 0.2rem;
     font-size: 12px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
 }
 .beforeContainer {
     width: 48vw;
@@ -154,7 +155,7 @@ body {
 }
 .inputHome {
     font-family: 'Red Hat Display';
-    width: 80vw;
+    width: 88vw;
     padding: 0 2.5%;
     height: 40px;
     margin: 1.5% 0;
@@ -218,10 +219,10 @@ body {
     font-weight: 900;
 }
 .productCiencia {
-    width: 30%;
+    width: 31%;
     transform: rotate(90deg); 
     margin-top: -80px;
-    margin: -105px -25px;
+    margin: -105px -27px -120px;
 }
 .card {
     border: #E0E0E0 2px solid;
@@ -234,11 +235,11 @@ body {
     color: white;
     font-weight: 700;
     width: 100%;
-    padding: 5% 18% 5% 5%;
+    padding: 4% 18% 4% 5%;
 }
 .cardContainer {
     display: flex;
-    height: 160px;
+    height: 165px;
     position: relative;
 }
 .cardText {
@@ -247,28 +248,30 @@ body {
     height: fit-content;
     margin: 0;
     width: 69%;
+    font-weight: 500;
 }
 .cardImage {
-    width: 34%;
+    width: 35%;
     position: absolute;
     top: -27px;
     height: fit-content;
     right: 10px;
 }
 .cardImageTwo {
-    width: 37%;
+    width: 38%;
     top: -20px;
 }
 .cartdImageThree{
-    top: -40px;
-    width: 37%;
+    top: -38px;
+    width: 38%;
 }
 .cardTextThree{
     width: 66%;
 }
 .cardImageFour {
-    width: 55%;
+    width: 56%;
     top: -16px;
+    right: 5px;
 }
 .cartTextFour {
     width: 59%;
@@ -278,7 +281,7 @@ body {
     font-size: 12px;
     text-align: center;
     color: #121212;
-    font-weight: 500;
+    font-weight: 600;
     opacity: 0.5;
     padding-top: 7vh;
 }
@@ -310,8 +313,8 @@ body {
     line-height: 22px;
 }
 .reviewPhoto {
-    width: 62px !important;
-    height: 72px !important;    
+    width: 66px !important;
+    height: 75px !important;
     margin: auto;
     position: relative;
     top: -37px;
