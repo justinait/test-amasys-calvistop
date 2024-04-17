@@ -241,6 +241,7 @@ body {
     display: flex;
     height: 165px;
     position: relative;
+    line-height: normal;
 }
 .cardText {
     font-size: 14px;
