@@ -552,11 +552,11 @@ body {
         padding-bottom: 10vh;
     }
     .productCiencia{
-        width: 10%;
+        width: 14%;
         transform: unset;
         margin: unset;
         position: absolute;
-        left: 45%;
+        left: 43%;
     }
     .card {
         width: 30vw;
@@ -571,6 +571,59 @@ body {
         justify-content: space-between;
         position: relative;
         top: 80px;
+    }
+    .cardContainer {
+        height: 140px;
+    }
+    .cardImage {
+        width: 36%;
+        position: absolute;
+        top: -140px;
+        height: 245px;
+        right: 10px;
+        max-height: unset;
+    }
+    .cardsHeaderOne {
+        padding: 1% 41% 1% 5%;
+    }
+    .cardsHeader {
+        padding: 4% 33% 4% 5%;
+    }
+    .cardTextTwo {
+        width: 62%; 
+    }
+    .cardImageTwo {
+        width: 35%;
+        top: -100px;
+        height: 230px;
+        right: 30px;
+    }
+    .cartdImageThree{
+        top: -120px;
+    }
+    .cardImageFour{
+        width: 40%;
+        position: absolute;
+        top: -53px;
+        height: 180px;
+    }
+    .cartTextFour{
+        width: 73%;
+    }
+    .reviews {
+        text-align: left;
+        padding-top: 40vh;
+        font-size: 18px;
+        margin-left: 6.5vw;
+        margin-bottom: 2rem;
+    }
+    .reviewsTitle{
+        font-size: 36px;
+        text-align: left;
+        margin-left: 6.5vw;
+    }
+    .cardReview{
+        width: 30vw;
     }
 }
 
