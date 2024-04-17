@@ -55,7 +55,7 @@ body {
 .usaFlag {
     height: fit-content;
     width: 15px;
-    padding-right: 4px;
+    margin-right: 2px;
 }
 
 .homeContainer {
@@ -91,6 +91,9 @@ body {
     height: 30px;
     display: flex;
     align-items: center;
+}
+.preSolutionText {
+    display: none;
 }
 .secureLogo {
     position: absolute;
@@ -160,7 +163,7 @@ body {
 }
 .inputHome {
     font-family: 'Red Hat Display';
-    width: 88vw;
+    width: 88%;
     padding: 0 2.5%;
     height: 40px;
     margin: 1.5% 0;
@@ -390,6 +393,9 @@ body {
     width: 70%;
     margin-left: 30%;
 }
+.secureLogoGroup{
+    display: none;
+}
 @media(min-width: 1000px){
     .promoHeaderContainer {
         height: 48px;
@@ -403,14 +409,182 @@ body {
     .promoHeader {
         margin: 0;
     }
+    .heroContainer {
+        background-image: url('/public/images/backgroundDesktop.png');
+        background-position: center;
+        height: 121vh;
+    }
     .JeremiahCard {
         width: 10vw;
         height: 62px;
     }
-    .productImage {
-        height: 93vh;
+    .productImageContainer{
+        height: 121vh;
         position: absolute;
-        left: 0;
+        left: -2px;
         top: 48px;
+        width: 23vw;
+        background: white;
+        margin: 0;
+        text-align: center;
+        z-index: 2;
+    }
+    .productImage {
+        height: 90vh;
+        top: 100px;
+        left: 21%;
+    }
+    .heroImages{
+        justify-content: flex-start;
+        padding-top: 5vh;
+        margin-left: 27vw;
+        width: 70vw;
+    }
+    .clinicalyProven {
+        width: 100px;
+    }
+    .usaSells{
+        height: 27px;
+        padding: 0 1%;
+    }
+    .usaSells p{
+        font-size: 14.6px;
+    }
+    .usaFlag {
+        width: 28px;
+        margin-right: 2px;
+    }
+    .sayByeContainer{
+        z-index: 3;
+        width: 34vw;
+        margin: 0;
+        transform: translate(-50%, -50%);
+        top: 27%;
+        left: 44%;
+        margin-right: 25vw;
+
+    }
+    .sayBye {
+        font-size: 70px;
+        margin: -30px 1px;
+    }
+    .solutionText{
+        padding-left: 10%;
+        margin-left: 60.5%;
+        width: 39%;
+        font-size: 18px;
+    }
+    .preSolutionText {
+        display: block;
+        width: 21%;
+        padding-left: 25.5%;
+        background-color: #EE0001;
+        margin-top: 125px;
+        height: 30px;
+        position: absolute;
+    }
+    .secureLogo {
+        display: none;
+    }
+    .itemContainer{
+        padding-left: 27vw;
+        padding-top: 5vh;
+    }
+    .item img {
+        width: 16px;
+        height: 16px;
+    }
+    .item p {
+        font-size: 18px;
+    }
+    .afterBeforeContainer{
+        width: 30vw;
+        margin-left: 27%;
+        padding-top: 6vh;
+    }
+    .afterBeforeContainer p {
+        font-size: 15.65px;
+        margin: 0.5rem;
+    }
+    .beforeContainer{
+        width: 48%;
+    }
+    .beforeContainer img {
+        height: 190px;
+    }
+    .formContainer{
+        width: 25vw;
+        position: absolute;
+        right: 10%;
+        top: 46%;
+        background: white;
+        border: solid 2px #E0E0E0;
+        border-bottom: none;
+    }
+    .formButton{
+        width: 88%;
+        margin: 0 5% 10%;
+    }
+    .secureLogoGroup{
+        display: block;
+    }
+    .logosContainer{
+        width: 30vw;
+        margin: 0;
+        position: absolute;
+        top: 114vh;
+        left: 27%;
+    }
+    .asSeen{
+        padding: 17px 37% 17px 37%;
+        z-index: 2;
+        font-size: 20px;
+        position: relative;
+    }
+    .gq {
+        width: 40px;
+    }
+    .esquire {
+        width: 122px;
+    }
+    .ciencia {
+        font-size: 36px;
+        padding-bottom: 10vh;
+    }
+    .productCiencia{
+        width: 10%;
+        transform: unset;
+        margin: unset;
+        position: absolute;
+        left: 45%;
+    }
+    .card {
+        width: 30vw;
+        margin: 1%;
+    }
+    .cardGroupContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 89vw;
+        margin: auto;
+        justify-content: space-between;
+        position: relative;
+        top: 80px;
+    }
+}
+
+@media(min-width:1500px){
+    .sayByeContainer{
+        top: 33%;
+        left: 45%;
+    }
+    .solutionText{
+        margin-left: 60%;
+        width: 40%;
+    }
+    .preSolutionText {
+        padding-left: 26%;
+        width: 26.5%;
     }
 }
