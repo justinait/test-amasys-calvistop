@@ -9,17 +9,22 @@ body {
     background-size: cover;
     background-position: bottom;
 }
-.promoHeader {
-    font-size: 12px;
-    text-align: center;
-    font-weight: 900;
-    color: #EE0001;
-    margin: 0;
+.promoHeaderContainer {
     background: black;
     height: 34px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 12px;
+    font-weight: 900;
+}
+.promoHeader {
+    text-align: center;
+    color: #EE0001;
+    margin: 0;
+}
+.promoHeaderDesktop{
+    display: none;
 }
 
 .heroImages {
@@ -257,6 +262,7 @@ body {
     top: -27px;
     height: fit-content;
     right: 10px;
+    max-height: 200px;
 }
 .cardImageTwo {
     width: 38%;
@@ -367,7 +373,7 @@ body {
     left: 0;
     width: 30%;
     object-fit: contain;
-  }
+}
 .JeremiahCardText {
     font-size: 11.13px;
     font-weight: 500;
@@ -383,4 +389,28 @@ body {
 .JeremiahCardTextContainer {
     width: 70%;
     margin-left: 30%;
+}
+@media(min-width: 1000px){
+    .promoHeaderContainer {
+        height: 48px;
+        font-size: 18px;
+    }
+    .promoHeaderDesktop {
+        display: block;
+        margin: 0;
+        color: white;
+    }
+    .promoHeader {
+        margin: 0;
+    }
+    .JeremiahCard {
+        width: 10vw;
+        height: 62px;
+    }
+    .productImage {
+        height: 93vh;
+        position: absolute;
+        left: 0;
+        top: 48px;
+    }
 }
